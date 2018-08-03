@@ -1,0 +1,185 @@
+* {
+   font-family: sans-serif;
+}
+
+.index-background {
+   background-color: #FFBA49;
+}
+
+.project-background {
+   background-color: #ffffff;
+   margin:0;
+}
+
+.title {
+   font-size: 48px;
+   color: #20A39E;
+   position: absolute;
+   left: 10%;
+   top: 100px;
+}
+
+.nav {
+   list-style: none;
+   color: #EF5B5B;
+   font-size: 64px;
+   line-height: 100px;
+   font-weight: 800;
+
+   position: absolute;
+   top: 200px;
+   right: 10%;
+}
+
+.navlink {
+   text-decoration-line: none;
+   color: #EF5B5B;
+}
+
+.navlink:hover {
+   border-bottom: solid white 10px;
+}
+
+.icon {
+   width: 300px;
+   opacity: 0;
+   position: absolute;
+   left: -600px;
+   top: 50px;
+}
+
+.navlink:hover > .icon {
+   opacity: 1;
+}
+
+.about-title {
+   font-size: 32px;
+   color: #20A39E;
+   position: absolute;
+   left: 10%;
+   top: 20px;
+}
+
+.about-nav {
+   list-style: none;
+   color: #EF5B5B;
+   font-size: 32px;
+   line-height: 50px;
+   font-weight: 800;
+
+   position: absolute;
+   top: 20px;
+   right: 10%;
+}
+
+.about-navlink {
+   text-decoration-line: none;
+   color: #EF5B5B;
+}
+
+.about-navlink:hover {
+   border-bottom: solid white 5px;
+}
+
+.profile-pic {
+   width: 500px;
+   position: absolute;
+   left:10%;
+   top:200px;
+   border-right: solid 10px #EF5B5B;
+}
+
+.intro {
+   width: 500px;
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 600;
+   position: absolute;
+   right: 10%;
+   top: 460px;
+   color: #20A39E;
+}
+
+.products-title {
+   background-color: #FFBA49;
+   color: #20A39E;
+   margin:0;
+   padding: 30px;
+}
+
+.thumbnail {
+   width: 350px;
+   position: absolute;
+   left: 10%;
+   top:200px;
+   border: solid 10px #20A39E;
+   transition: 300ms
+}
+
+.thumbnail:hover {
+   opacity: 0.7;
+   transition: 300ms;
+}
+
+.project-background {
+   background-color: #ffffff;
+}
+
+.project-title {
+   color: #20A39E;
+   background-color: #ffffff;
+
+   margin:0;
+
+   position: absolute;
+   left:9%;
+   top:50px;
+
+
+}
+
+.project-nav {
+   list-style: none;
+   color: #EF5B5B;
+   font-size: 24px;
+   line-height: 50px;
+   font-weight: 800;
+
+
+   position: absolute;
+   top:90px;
+   right:10%;
+}
+
+.project-li {
+   float:left;
+   padding:20px;
+   text-align: center;
+}
+
+.project-navlink {
+   text-decoration-line: none;
+   color: #EF5B5B;
+}
+
+.project-navlink:hover {
+   border-bottom: solid #FFBA49 5px;
+}
+
+.project-container {
+   position: absolute;
+   top: 220px;
+   width: 90%;
+}
+
+.project-photo {
+   width: 90%;
+   margin-left:10%;
+   margin-top: 50px;
+}
+
+.video {
+   width:90%;
+   height:700px;
+   margin-left: 10%;
+}
